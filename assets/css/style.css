@@ -15,3 +15,76 @@
     src: url(../fonts/Raleway-Regular.ttf) format('truetype');
     src: url(../fonts/Raleway-Regular.woff);
 }
+h1, h2{
+    font-family: "Raleway-Bold";
+    color: #ffffff;
+}
+h3{
+    font-family: "Raleway-Bold";
+    color: #17abb3;
+}
+h4 {
+    font-family: "Raleway-Bold";
+    color: #333333;
+}
+
+header {
+    background-color: #17abb3;
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 1160px;
+}
+
+footer {
+    background-color: #17abb3;
+    width: 1160px;
+    text-align: center;
+}
+
+main {
+    width: 1160px;
+}
+
+#header {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+}
+
+#flexheader1 {
+    width: 580px;
+    color: #ffffff;
+}
+#flexheader1-name {
+    height: 88px;
+}   
+
+#infos {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#flexheader1-mail {
+    width: 290px;
+    height: 36px;
+}
+#flexheader1-phone {
+    width: 290px;
+    height: 36px;
+}
+
+#flexheader1-adress {
+    width: 290px;
+    height: 36px;
+}
+
+#flexheader1-permis {
+    width: 290px;
+    height: 36px;
+}
+
+
+#flexheader2 {
+    width: 580px;
+}
