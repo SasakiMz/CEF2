@@ -26,6 +26,8 @@ h3{
 h4 {
     font-family: "Raleway-Bold";
     color: #333333;
+    padding: 0;
+    margin: 0;
 }
 
 header {
@@ -33,6 +35,7 @@ header {
     margin-left: 2em;
     margin-right: 2em;
     width: 1160px;
+    justify-content: center;
 }
 
 footer {
@@ -41,9 +44,7 @@ footer {
     text-align: center;
 }
 
-main {
-    width: 1160px;
-}
+
 
 #header {
     display: flex;
