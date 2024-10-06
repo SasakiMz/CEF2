@@ -1,0 +1,32 @@
+header {
+    background-color: #17abb3;
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 1160px;
+    padding: 0px;
+    justify-content: center;
+    height: 250px;
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+}
+
+
+.flexheader1 {
+    flex: auto;
+    width: 580px;
+    color: #ffffff;
+    padding: 0px;
+    width: 696px;
+}
+
+.infos {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+}
+
+.flexheader2 {
+    width: 400px;
+}

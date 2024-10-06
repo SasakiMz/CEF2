@@ -30,62 +30,30 @@ h4 {
     margin: 0;
 }
 
-header {
-    background-color: #17abb3;
-    margin-left: 2em;
-    margin-right: 2em;
-    width: 1160px;
-    justify-content: center;
-}
+
 
 footer {
     background-color: #17abb3;
+    color: white;
     width: 1160px;
-    text-align: center;
-}
-
-
-
-#header {
+    height: 5em;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
-#flexheader1 {
-    width: 580px;
-    color: #ffffff;
-}
-#flexheader1-name {
-    height: 88px;
-}   
-
-#infos {
-    display: flex;
-    flex-wrap: wrap;
-
+.updateday {
+    height: 2em;
+    margin: 0px;
+    padding: 0px;
+    flex: auto;
 }
 
-#flexheader1-mail {
-    width: 290px;
-    height: 36px;
-}
-#flexheader1-phone {
-    width: 290px;
-    height: 36px;
-}
-
-#flexheader1-adress {
-    width: 290px;
-    height: 36px;
-}
-
-#flexheader1-permis {
-    width: 290px;
-    height: 36px;
-}
-
-
-#flexheader2 {
-    width: 580px;
+.footerlinks {
+    height: 3em;
+    margin: 0px;
+    padding: 0px;
+    flex: auto;
 }
