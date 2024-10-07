@@ -29,7 +29,8 @@ main {
     background-color: #e3e3e3;
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 400px;
+    padding-left: 30px;
     
 }
 
@@ -37,9 +38,36 @@ main {
 
 }
 #langages {
-
-
+display: flex;
+flex-direction: column;
 }
+#french {
+    display: flex;
+    flex-direction: row;
+}
+#english {
+    display: flex;
+    flex-direction: row;
+}
+#italian {
+    display: flex;
+    flex-direction: row;
+}
+#spanish {
+    display: flex;
+    flex-direction: row;
+}
+.textlangages {
+    flex: auto;
+    text-align: left;
+    padding-top: 15px;
+}
+.level_langage {
+    flex: auto;
+    text-align: end;
+    padding-top: 15px;
+}
+
 #quality {
 
 
@@ -81,4 +109,18 @@ p {
     margin: 0 0 10px 0;
     font-style: italic;
     font-size: small;
+}
+
+.blocs_formation {
+    display: flex;
+}
+.dates {
+    flex: auto;
+    text-align: end;
+}
+
+.text_dates {
+    font-family:"Raleway-Bold" ;
+    color: aqua;
+    padding-right: 20px;
 }

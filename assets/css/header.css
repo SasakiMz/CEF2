@@ -61,3 +61,8 @@ header {
     width: 400px;
     text-align: left;
 }
+
+.textinfos {
+    font-family: "Raleway-Regular";
+    font-size: 14px;
+}
