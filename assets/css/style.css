@@ -15,9 +15,19 @@
     src: url(../fonts/Raleway-Regular.ttf) format('truetype');
     src: url(../fonts/Raleway-Regular.woff);
 }
-h1, h2{
+h1{
     font-family: "Raleway-Bold";
     color: #ffffff;
+    font-size: 2em;
+    padding-bottom: 0px;
+    
+}
+h2{
+    font-family: "Raleway-Bold";
+    color: #ffffff;
+    font-size: 1em;
+    padding: 0;
+    
 }
 h3{
     font-family: "Raleway-Bold";

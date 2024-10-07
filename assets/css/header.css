@@ -8,25 +8,56 @@ header {
     height: 250px;
     display: flex;
     flex-direction: row-reverse;
-    text-align: center;
 }
 
 
-.flexheader1 {
+#flexheader-infos {
     flex: auto;
-    width: 580px;
     color: #ffffff;
     padding: 0px;
     width: 696px;
 }
 
-.infos {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0px;
-    padding: 0px;
+.flexheader-name {
+
+    text-align: center;
+    width: auto;
+    padding-top: 15px;
 }
 
-.flexheader2 {
+
+.infos {
+    display: flex;
+    margin: 0px;
+    padding-top: 60px;
+    justify-content: space-around;
+    padding: 5px 100px 5px 175px;
+}
+.infos2 {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-around;
+    padding: 5px 100px 5px 175px;
+}
+
+#flexheader-img {
+    display: flex;
+    flex: auto;
+    width: 250px;
+    padding-top: 50px;
+    justify-content: center;        
+}
+
+#img1 {
+    border: 4px solid white;
+    border-radius: 50%; 
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.informations {
     width: 400px;
+    text-align: left;
 }

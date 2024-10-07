@@ -33,20 +33,21 @@ main {
     
 }
 
-.skills {
+#skills {
 
 }
-.langages {
-
-
-}
-.quality {
+#langages {
 
 
 }
-.hobbies {
+#quality {
+
+
+}
+#hobbies {
     flex: auto;
 }
+
 li {
     list-style-type: square;
 }
