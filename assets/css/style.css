@@ -15,26 +15,31 @@
     src: url(../fonts/Raleway-Regular.ttf) format('truetype');
     src: url(../fonts/Raleway-Regular.woff);
 }
+
+body {
+    margin: auto;
+    width: 1160px;
+}
 h1{
-    font-family: "Raleway-Bold";
+    font-family: "Lato";
     color: #ffffff;
     font-size: 2em;
     padding-bottom: 0px;
     
 }
 h2{
-    font-family: "Raleway-Bold";
+    font-family: "Lato";
     color: #ffffff;
     font-size: 1em;
     padding: 0;
     
 }
 h3{
-    font-family: "Raleway-Bold";
+    font-family: "Lato";
     color: #17abb3;
 }
 h4 {
-    font-family: "Raleway-Bold";
+    font-family: "Lato";
     color: #333333;
     padding: 0;
     margin: 0;
@@ -52,6 +57,7 @@ footer {
     text-align: center;
     margin-left: 2em;
     margin-right: 2em;
+    margin-bottom: 0px;
 }
 
 .updateday {
@@ -61,9 +67,21 @@ footer {
     flex: auto;
 }
 
+#footer {
+display: flex;
+flex-direction: column;
+height: auto;
+}
+
 .footerlinks {
-    height: 3em;
+    height: 2em;
     margin: 0px;
-    padding: 0px;
-    flex: auto;
+    padding-top: 20px;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
 }

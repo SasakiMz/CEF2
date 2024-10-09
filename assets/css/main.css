@@ -34,64 +34,92 @@ main {
     
 }
 
-#skills {
-
+.bloc_skills {
+    display: flex;
+    flex-direction: row;
+}
+.stars {
+    flex: auto;
+    justify-content: flex-end;
+    text-align: end;
+    padding-right: 20px;
 }
 #langages {
 display: flex;
 flex-direction: column;
+
+
 }
 #french {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px;
 }
 #english {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px;
 }
 #italian {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px;
 }
 #spanish {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px;
 }
-.textlangages {
+.textlangages p {
     flex: auto;
     text-align: left;
     padding-top: 15px;
+    font-weight: bold;
+    font-size: 1em;
 }
-.level_langage {
+.level_langage p {
     flex: auto;
     text-align: end;
     padding-top: 15px;
-}
-
-#quality {
-
-
+    font-size: 1em;
 }
 #hobbies {
     flex: auto;
 }
 
+ul {
+    list-style: none;
+    font-size: large;
+
+}
+
+li::before {
+    content: "▪"; 
+    color: #17abb3;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -2em;
+}
 li {
-    list-style-type: square;
+    font-family: "Raleway-Regular";
 }
 
 #parent2 {
     display: flex;
     flex-direction: column;
-    
 }
 
 .profil {
     padding-left: 2em;
+    padding-right: 1em;
 }
 span p{
     font-style:normal;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Raleway-Regular";
 }
 .formations {
     padding-left: 2em;
@@ -101,6 +129,7 @@ span p{
 }   
 .profesionnal_experience {
     padding-left: 2em;
+    padding-bottom: 20px;
 }
 
 p {
@@ -113,6 +142,15 @@ p {
 
 .blocs_formation {
     display: flex;
+    
+}
+.blocs_formation:hover {
+    background-color: #e3e3e3;
+    border-left: 5px solid #17abb3;
+    padding-left: 5px;
+}
+.things {
+    padding-left: 5px;
 }
 .dates {
     flex: auto;
@@ -120,7 +158,22 @@ p {
 }
 
 .text_dates {
-    font-family:"Raleway-Bold" ;
-    color: aqua;
+    font-size: 1em;
+    font-family:"Raleway-Regular" ;
+    color: #17abb3;
     padding-right: 20px;
+    padding-top: 10px;
+
+}
+
+.bloc_skills_individual p {
+    flex: auto;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#text_profil p {
+    font-size:15px ;
+    font-family: "Raleway-Regular";
 }
