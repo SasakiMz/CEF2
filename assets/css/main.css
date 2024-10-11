@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: "Raleway-Bold";
+    src: url(../fonts/Raleway-Bold.ttf) format('truetype');
+    src: url(../fonts/Raleway-Bold.woff);
+}
+@font-face {
+    font-family: "Raleway-Italic";
+    src: url(../fonts/Raleway-Italic.ttf) format('truetype');
+    src: url(../fonts/Raleway-Italic.woff);
+}
+@font-face {
+    font-family: "Raleway-Regular";
+    src: url(../fonts/Raleway-Regular.ttf) format('truetype');
+    src: url(../fonts/Raleway-Regular.woff);
+}
+
+main {
+    width: 1160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+#parent1 {
+    background-color: #e3e3e3;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding-left: 30px;
+    
+}
+
+.bloc_skills {
+    display: flex;
+    flex-direction: row;
+}
+.stars {
+    flex: auto;
+    justify-content: flex-end;
+    text-align: end;
+    padding-right: 20px;
+}
+#langages {
+display: flex;
+flex-direction: column;
+
+
+}
+#french {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+#english {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+#italian {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+#spanish {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+.textlangages p {
+    flex: auto;
+    text-align: left;
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: 1em;
+}
+.level_langage p {
+    flex: auto;
+    text-align: end;
+    padding-top: 15px;
+    font-size: 1em;
+}
+#hobbies {
+    flex: auto;
+}
+
+ul {
+    list-style: none;
+    font-size: large;
+
+}
+
+li::before {
+    content: "▪"; 
+    color: #17abb3;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -2em;
+}
+li {
+    font-family: "Raleway-Regular";
+}
+
+#parent2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.profil {
+    padding-left: 2em;
+    padding-right: 1em;
+}
+span p{
+    font-style:normal;
+    font-family: "Raleway-Regular";
+}
+.formations {
+    padding-left: 2em;
+}
+.stages {
+    padding-left: 2em;
+}   
+.profesionnal_experience {
+    padding-left: 2em;
+    padding-bottom: 20px;
+}
+
+p {
+    font-family: "Raleway-Regular";
+    padding: 0 0 10px 0;
+    margin: 0 0 10px 0;
+    font-style: italic;
+    font-size: small;
+}
+
+.blocs_formation {
+    display: flex;
+    
+}
+.blocs_formation:hover {
+    background-color: #e3e3e3;
+    border-left: 5px solid #17abb3;
+    padding-left: 5px;
+}
+.things {
+    padding-left: 5px;
+}
+.dates {
+    flex: auto;
+    text-align: end;
+}
+
+.text_dates {
+    font-size: 1em;
+    font-family:"Raleway-Regular" ;
+    color: #17abb3;
+    padding-right: 20px;
+    padding-top: 10px;
+
+}
+
+.bloc_skills_individual p {
+    flex: auto;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#text_profil p {
+    font-size:15px ;
+    font-family: "Raleway-Regular";
+}
+
+.paragraphe_profil {
+    margin: 0px;
+    text-indent: 1em;
+}

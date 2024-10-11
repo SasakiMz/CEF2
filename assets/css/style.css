@@ -15,3 +15,70 @@
     src: url(../fonts/Raleway-Regular.ttf) format('truetype');
     src: url(../fonts/Raleway-Regular.woff);
 }
+
+body {
+    margin: auto;
+    width: 1160px;
+}
+h1{
+    font-family: "Lato";
+    color: #ffffff;
+    font-size: 3em;
+    margin-bottom: 0px;
+    margin-top: 26px;
+}
+h2{
+    font-family: "Lato";
+    color: #ffffff;
+    font-size: 25px;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+h3{
+    font-family: "Lato";
+    color: #17abb3;
+}
+h4 {
+    font-family: "Lato";
+    color: #333333;
+    padding: 0;
+    margin: 0;
+}
+footer {
+    background-color: #17abb3;
+    color: white;
+    width: 1160px;
+    height: 5em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 0px;
+}
+.updateday {
+    height: 2em;
+    margin: 0px;
+    padding: 0px;
+    flex: auto;
+}
+#footer {
+display: flex;
+flex-direction: column;
+height: auto;
+}
+#footerlinks {
+    height: 2em;
+    margin: 0px;
+    padding-top: 20px;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.link_hover:hover {
+    opacity: 50%;
+}

@@ -3,120 +3,233 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <section>
-            <h1>Maxime Larcher</h1>
-            <h2>Développeur Web et Web Mobile</h2>
-            <div class="infos_header">maximelarcher@matignon.fr</div>
-            <div class="infos_header">Av. des Champs-Élysées75008 Paris</div>
-            <div class="infos_header">01.02.03.04.05</div>
-            <div class="infos_header">Permis B</div>
-        </section>
-        <div>
-            <img src="" alt="">
+        <section id="flexheader-infos">
+            <div class="flexheader-name">
+                <h1>Maxime Larcher</h1>
+                <h2>Développeur  Web et Web  Mobile</h2>
+            </div>
+            <div class="infos">
+                <div class="informations"><a href="mailto:maximechoisay3@gmail.com"><img src="./assets/img/mail.png" alt=""></a><span class="textinfos"> Mail</span></div>
+                <div class="informations"><a href="https://maps.app.goo.gl/yFShonxgCK7nzvzv7"><img src="./assets/img/house.png" alt=""></a> <span class="textinfos"> Adresse</span></div>
+            </div>   
+            <div class="infos2">
+                <div class="informations"><a href="tel:01.02.03.04.05"><img src="./assets/img/phone.png" alt=""></a><span class="textinfos"> Téléphone</span></div>
+                <div class="informations"><img src="./assets/img/car.png" alt=""> <span class="textinfos"> Permis B</span></div>  
+            </div>
+        </section>        
+        <div id="flexheader-img">
+            <img id="img1" src="./assets/img/photoprofil.png" alt="#">
         </div>
     </header>
-    <main>
-        <section class="skills">
-            <h3>Compétences</h3>
-        </section>
-        <section class="profil">
-            <h3>Profil</h3>
-        </section>
-        <section class="langages">
-            <h3>Langues</h3>
-            <ul>
-                <li>Français</li>
-                <li>Anglais</li>
-                <li>Italien</li>
-                <li>Espagnol</li>
-            </ul>
-            <ul>
-                <li>Langue maternelle</li>
-                <li>Courant</li>
-                <li>Courant</li>
-                <li>Notions</li>
-            </ul>
-        </section>
-        <section class="formations">
-            <h3>Formations</h3>
-            <div>
-                <h4>Titre Professionnel DWWB</h4>
-                    <p>Centre Européen de Formation</p>
+    <main id="main">
+        <div id="parent1">
+            <section id="skills">
+                <h3>Compétences</h3>
+                <div class="bloc_skills">
+                    <div class="bloc_skills_individual">
+                        <p>HTML</p>
+                    </div>
+                    <div class="stars">
+                        <img src="./assets/img/star_full.png" alt="">
+                        <img src="./assets/img/star_full.png" alt="">
+                        <img src="./assets/img/star_full.png" alt="">
+                        <img src="./assets/img/star_full.png" alt="">
+                        <img src="./assets/img/star_nofull.png" alt="">
+                    </div>
+                </div>
+                <div class="bloc_skills">
+                    <div class="bloc_skills_individual">
+                        <p>CSS</p>
+                    </div>
+                    <div class="stars">
+                        <img src="./assets/img/star_full.png" alt="">
+                        <img src="./assets/img/star_full.png" alt="">
+                        <img src="./assets/img/star_full.png" alt="">
+                        <img src="./assets/img/star_full.png" alt="">
+                        <img src="./assets/img/star_nofull.png" alt="">
+                    </div>
+                </div>
+                <div class="bloc_skills">
+                    <div class="bloc_skills_individual">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="stars">
+                        <img src="./assets/img/star_full.png" alt="">
+                        <img src="./assets/img/star_full.png" alt="">
+                        <img src="./assets/img/star_nofull.png" alt="">
+                        <img src="./assets/img/star_nofull.png" alt="">
+                        <img src="./assets/img/star_nofull.png" alt="">
+                    </div>
+                </div>
+                <div class="bloc_skills">
+                    <div class="bloc_skills_individual">
+                        <p>PHP</p>
+                    </div>
+                    <div class="stars">
+                        <img src="./assets/img/star_full.png" alt="">
+                        <img src="./assets/img/star_nofull.png" alt="">
+                        <img src="./assets/img/star_nofull.png" alt="">
+                        <img src="./assets/img/star_nofull.png" alt="">
+                        <img src="./assets/img/star_nofull.png" alt="">
+                    </div>
+                </div>   
+            </section>
+            <section id="langages">
+                <h3>Langues</h3>
+                <div id="french">
+                    <div class="textlangages"><p>Français</p></div>
+                    <div class="level_langage"><p>Langue maternelle</p></div>
+                </div>
+                <div id="english">
+                    <div class="textlangages"><p>Anglais</p></div>
+                    <div class="level_langage"><p>Courant</p></div>
+                </div>
+                <div id="italian">
+                    <div class="textlangages"><p>Italien</p></div>
+                    <div class="level_langage"><p>Courant</p></div>
+                </div>
+                <div id="spanish">
+                    <div class="textlangages"><p>Espagnol</p></div>
+                    <div class="level_langage"><p>Notions</p></div>
+                </div>
+               
+            </section>
+            <section id="quality">
+                <h3>Qualités</h3>
+                <ul>
+                    <li>Esprit d'Equipe</li>
+                    <li>Autonomie</li>
+                    <li>Organisation</li>
+                    <li>Créativité</li>
+                </ul>
+            </section>
+            <section id="hobbies">
+                <h3>Centre d'intérêt</h3>
+                <ul>
+                    <li>Jeux-Vidéos</li>
+                    <li>Sport</li>
+                    <li>Psychologie</li>
+                </ul>
+            </section>
+        </div>
+        <div id="parent2">
+            <section class="profil">
+                <h3>Profil</h3>
+                <div id="text_profil">
+                    <p class="paragraphe_profil">Je suis un jeune diplômé du CEF de 21 ans ! Actuellement je cherche un poste en tant que Développeur Web et/ou application mobile !</p>
+                    <p class="paragraphe_profil">Dynamique, ainsi que bon public, entre les compétences que je possède, je pense être un atout humain dans une équipe suite à mes études psychologies</p>
             </div>
-            <div>
-                <h4>Psychologie</h4>
-                    <p>Université de Paris</p>
-            </div>
-            <div>
-                <h4>Génie Thermique et énergie</h4>
-                    <p>IUT de Paris</p>
-            </div>
-            <div>
-                <h4>Baccalauréat</h4>
-                    <p>Institution de Marmoutier, Tours</p>
-            </div>
-        </section>
-        <section class="quality">
-            <h3>Qualités</h3>
-            <ul>
-                <li>Esprit d'Equipe</li>
-                <li>Autonomie</li>
-                <li>Organisation</li>
-                <li>Créativité</li>
-            </ul>
-        </section>
-        <section class="stages">
+            </section>
+            <section class="formations">
+                <h3>Formations</h3>
+                <div class="blocs_formation">
+                    <div class="things">
+                        <h4>Titre Professionnel DWWB</h4>
+                            <p>Centre Européen de Formation</p>
+                    </div>
+                    <div class="dates">
+                        <p class="text_dates">Juin 2024 à Actuellement</p>
+                    </div>
+                </div>
+                <div class="blocs_formation">
+                    <div class="things">
+                        <h4>Psychologie</h4>
+                            <p>Université de Paris</p>
+                    </div>
+                    <div class="dates">
+                        <p class="text_dates">Septembre 2022 à Juin 2024</p>
+                    </div>
+                </div>
+                <div class="blocs_formation">
+                    <div class="things">
+                        <h4>Génie Thermique et énergie</h4>
+                            <p>IUT de Paris</p>
+                    </div>
+                    <div class="dates">
+                        <p  class="text_dates">Septembre 2021 à Juillet 2022</p>
+                    </div>
+                </div>
+                <div class="blocs_formation">
+                    <div class="things">
+                        <h4>Baccalauréat</h4>
+                            <p>Institution de Marmoutier, Tours</p>
+                    </div>
+                    <div class="dates">
+                        <p  class="text_dates">Septembre 2020 à Juillet 2021</p>
+                    </div>
+                </div>     
+            </section>
+            <section class="stages">
             <h3>Stages</h3>
-            <div>
-                <h4>CMPP</h4>
-                    <p>Paris</p>
+            <div class="blocs_formation">
+                <div class="things">
+                    <h4>CMPP</h4>
+                        <p>Paris</p>
+                </div>
+                <div class="dates">
+                    <p class="text_dates">Avril 2023 à Octobre 2023</p>
+                </div>
             </div>
-            <div>
-                <h4>Agent d'acceuil</h4>
-                    <p>Paris</p>
+            <div class="blocs_formation">
+                <div class="things">
+                    <h4>Agent d'acceuil</h4>
+                        <p>Paris</p>
+                </div>
+                <div class="dates">
+                    <p class="text_dates">Juillet 2022 à Septembre 2022</p>
+                </div>
             </div>
-        </section>
-        <section class="hobbies">
-            <h3>Centre d'intérêt</h3>
-            <ul>
-                <li>Yoga</li>
-                <li>Tennis</li>
-                <li>Ecologie</li>
-            </ul>
         </section>
         <section class="profesionnal_experience">
             <h3>Expérience Professionnelle</h3>
-            <div>
-                <h4>Macdonald's</h4>
-                    <p>De la Demi-Lune, Paris</p>
+            <div class="blocs_formation">
+                <div>
+                    <h4>Macdonald's</h4>
+                        <p>De la Demi-Lune, Paris</p>
+                </div>
+                <div class="dates">
+                    <p class="text_dates">Septembre 2023 à Decembre 2023</p>
+                </div>
             </div>
-            <div>
-                <h4>Accompagnant de Vie</h4>
-                    <p>auprès d'un jeune en situation de handicap, Paris</p>
+            <div class="blocs_formation">
+                <div>
+                    <h4>Accompagnant de Vie</h4>
+                        <p>auprès d'un jeune en situation de handicap, Paris</p>
+                </div>
+                <div class="dates">
+                    <p class="text_dates">Juin 2020 à Actuellement</p>
+                </div>
             </div>
-            <div>
-                <h4>Auxiliaire de Vie</h4>
-                    <p>Ehpad des crayons, Paris</p>
+            <div class="blocs_formation">
+                <div>
+                    <h4>Auxiliaire de Vie</h4>
+                        <p>Ehpad des crayons, Paris</p>
+                </div>
+                <div class="dates">
+                    <p class="text_dates">Septembre 2020 à Juin 2024</p>
+                </div>
             </div>
         </section>
-
-
-
+    </div>
     </main>
     <footer>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <p>mise à jour le ??/??/??</p>
+        <div id="footer">
+            <div id="footerlinks">
+                <div class="link_hover"><a href="https://www.linkedin.com/"><img src="./assets/img/logo-linkedin.png" alt=""></a></div>
+                <div class="link_hover"><a href="https://github.com/SasakiMz/"><img src="./assets/img/github.png" alt=""></a></div>
+                <div class="link_hover"><a href="https://www.instagram.com/"><img src="./assets/img/instagram.png" alt=""></a></div>
+            </div>
+            <div class="updateday">
+                <p>Mise à jour le 10/09/2024</p>
+            ></div>
+        </div>
     </footer>
-
-
-
-
-
 </body>
 </html>
