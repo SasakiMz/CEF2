@@ -19,7 +19,6 @@ header {
 }
 
 .flexheader-name {
-
     text-align: center;
     width: auto;
     padding-top: 15px;
@@ -29,16 +28,15 @@ header {
 .infos {
     display: flex;
     margin: 0px;
-    padding-top: 60px;
     justify-content: space-around;
-    padding: 5px 100px 5px 175px;
+    padding: 30px 220px 5px 280px;
 }
 .infos2 {
     display: flex;
     margin: 0px;
     padding: 0px;
     justify-content: space-around;
-    padding: 5px 100px 5px 175px;
+    padding: 5px 220px 5px 280px;
 }
 
 #flexheader-img {
@@ -58,8 +56,9 @@ header {
 }
 
 .informations {
-    width: 400px;
+    width: 120px;
     text-align: left;
+    padding-right: 50px;
 }
 
 .textinfos {

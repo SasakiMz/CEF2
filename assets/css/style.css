@@ -23,14 +23,17 @@ body {
 h1{
     font-family: "Lato";
     color: #ffffff;
-    font-size: 2em;
-    padding-bottom: 0px;
+    font-size: 3em;
+    margin-bottom: 0px;
+    margin-top: 26px;
 }
 h2{
     font-family: "Lato";
     color: #ffffff;
-    font-size: 1em;
-    padding: 0;
+    font-size: 25px;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 h3{
     font-family: "Lato";

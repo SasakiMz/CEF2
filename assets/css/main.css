@@ -177,3 +177,8 @@ p {
     font-size:15px ;
     font-family: "Raleway-Regular";
 }
+
+.paragraphe_profil {
+    margin: 0px;
+    text-indent: 1em;
+}
